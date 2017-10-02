@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="biz.njdart.ebol.MainActivity">
+    <TextView
+        android:id="@+id/shpNumD"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="none"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/signBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+
+
+        android:layout_marginBottom="708dp" />
+
+    <Button
+        android:id="@+id/signBtn"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="46dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Sign Bol"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="367dp"
+        android:layout_height="624dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/signBtn"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+</android.support.constraint.ConstraintLayout>
